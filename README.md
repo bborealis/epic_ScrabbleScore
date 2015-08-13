@@ -1,6 +1,6 @@
 # _Scrabble Score_
 
-##### _Evaluate a word for a "scrabble" score. , 8/9/2015_
+##### _Evaluate a word for a "scrabble" score. , 8/13/2015_
 
 #### By Charles Moss & Brian Borealis
 
