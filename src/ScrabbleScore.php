@@ -12,18 +12,14 @@
             foreach ($letters as $letter=>$point) {
                 if ($word === $letter) {
                     $score = $point;
-                }
+                } else {
+                    $score = "Please enter a letter.";
+               }
             }
 
             $sum_score = strval($score);
             return $sum_score;
-
-
         }
     }
-
-
-
-
 
 ?>
