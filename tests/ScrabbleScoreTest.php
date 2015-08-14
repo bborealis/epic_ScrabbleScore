@@ -58,7 +58,17 @@
 
            $result = $test_ScrabbleScore->wordScore($input);
 
-           $this->assertEquals("3", $result);
+           $this->assertEquals("33", $result);
+       }
+
+       //7. Enter "abcdefghijklmnopqrstuvwxyz" and get back "87".
+       function test_wordScore_allLetters() {
+           $test_ScrabbleScore = new ScrabbleScore;
+           $input = "abcdefghijklmnopqrstuvwxyz";
+
+           $result = $test_ScrabbleScore->wordScore($input);
+
+           $this->assertEquals("87", $result);
        }
 }
 ?>
